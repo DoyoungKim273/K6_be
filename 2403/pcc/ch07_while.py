@@ -9,7 +9,22 @@
 #     current_number = int(current_number)
 #     print(sum(current_number))
 # # TypeError: 'int' object is not iterable --- int로 타입캐스팅 해주었는데도 오류가 나는 이유?
-     
+
+current_number = 1
+total_sum = 0
+
+while current_number <= 5:
+     print(current_number)
+     total_sum += current_number
+     current_number += 1
+print("총 합 : ", total_sum)
+
+# sum() 함수는 요소들의 합을 계산하기 위해 반복 가능한 객체(리스트, 튜플 등)를 기대
+# 정수인 current_number를 합하려고 시도 -> 오류 발생
+# 만약 1부터 current_number까지의 숫자를 합하려면, 별도의 변수에 합계를 계속해서 더해주어야 함
+# total_sum 변수를 추가하여 1부터 current_number까지의 숫자의 합을 누적하고, 루프가 완료된 후에 합계를 출력
+
+python
 squares = []
 for number in range(1, 6):
     squares.append(number)
