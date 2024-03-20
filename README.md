@@ -1,1 +1,1 @@
-K6_Python - Solving practice question
+#K6_Python - Solving practice question
