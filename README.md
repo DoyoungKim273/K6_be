@@ -1,1 +1,1 @@
-K6_Python - Solving practice question
+부산대학교 AI 활용 빅데이터분석 풀스택웹서비스 SW 개발자 양성과정 파이썬 프로그래밍 수업 실습 코드
